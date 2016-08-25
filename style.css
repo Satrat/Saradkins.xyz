@@ -115,11 +115,70 @@
 .content {
     position: relative;
     vertical-align:top;
-    height:82%;
+    height:69%;
     width:100%;
     margin:0px;
-    padding-top:50px;
+    padding-top:8%;
+    padding-bottom:3%;
+    word-wrap: break-all;
+    overflow: auto;
+
 }
+
+.content_port {
+    position: relative;
+    vertical-align:top;
+    height:76%;
+    width:100%;
+    margin:0px;
+    padding-bottom:3%;
+    word-wrap: break-all;
+    overflow: auto;
+}
+
+.content_res {
+    position: relative;
+    vertical-align:top;
+    height: 78%;
+    width:100%;
+    margin:0px;
+    padding-top:2%;
+    padding-bottom:2%;
+    word-wrap: break-all;
+    overflow: auto;
+    text-align: center;
+
+}
+
+.content_mus {
+    position: relative;
+    vertical-align:top;
+    height:76%;
+    width:100%;
+    margin:0px;
+    padding-bottom:3%;
+    word-wrap: break-all;
+    overflow: auto;
+}
+
+.content img {
+    width: 300px;
+    height: auto;
+    float: left; 
+    padding-right: 15px;
+    padding-bottom: 2px;
+}
+
+.content_port img {
+    width: 230px;
+    height: 200px;
+    float: left;
+    padding-right: 15px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
 
 .back {
     vertical-align:top;
@@ -135,7 +194,7 @@
     display: block;
     margin: 0px;
     width: auto;
-    padding: 0px ;
+    padding: 0px;
     height: 100%;
 }
 
@@ -144,27 +203,30 @@
     position: relative;
     display: inline-block;
     height:100%;
-    width:17%; 
-    margin:0px;
-    padding: 0px;
+    width:85%; 
+    padding-top: 1.8%;
+    padding-bottom: 1.8%
 }
 
 .icon img {
+    float: left;
     display: block;
-    margin: auto;
     height: 80%;
     width: auto;
-    padding-top: 10%;
+    padding-right: 5%;
+    padding-left: 1%;
+
 }
 
-.title {
+.mus_link {
     vertical-align:top;
     position: relative;
     display: inline-block;
-    height:100%;
-    width:65%; 
+    height:10%;
+    width:32%; 
     margin:0px;
     padding: 0px;
+    padding-top: 10px;
 }
 
 body {
@@ -192,14 +254,75 @@ h3 {
     text-align:left;
     color:#f0eceb;
     font-family: 'Roboto Slab', sans-serif; 
-    padding: 20px;
-    font-size: 6em;
+    padding: 0px;
+    font-size: 10vh;
+}
+
+h4 {
+    margin: 0px;
+    text-align:left;
+    color:#173e43;
+    font-family: 'Roboto Slab', sans-serif; 
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+
+h5 {
+    margin: 0px;
+    text-align:left;
+    color:#173e43;
+    font-family: 'Roboto Slab', sans-serif; 
+    font-size: 1.5em;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 p {
-    margin: 0px;
-    text-align:center;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align:left;
+    word-wrap: break-word;
     color:#173e43;
     font-family: 'Roboto Slab', sans-serif; 
-    font-size: 1em;  
+    font-size: 1em; 
+    line-height: 145%; 
+}
+
+.content_res p {
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align:center;
+    word-wrap: break-word;
+    color:#173e43;
+    font-family: 'Roboto Slab', sans-serif; 
+    font-size: 1em; 
+    line-height: 145%; 
+}
+
+.content_mus h6 {
+    text-align: left;
+    color:#173e43;
+    font-family: 'Roboto Slab', sans-serif; 
+    font-size: 1.3em; 
+    margin-top: 5px;
+    margin-bottom: 2px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.mItem p {
+    text-align: center;
+    color:#173e43;
+    font-family: 'Roboto Slab', sans-serif; 
+    font-size: 1em; 
+    margin-top: 0px;
+}
+
+.mus_link p {
+    text-align: center;
+}
+
+.mus_link a {
+    color: #173e43;
 }
