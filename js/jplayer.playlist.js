@@ -424,6 +424,43 @@
 			if(0 <= index && index < this.playlist.length) {
 				if(this.playlist.length) {
 					this.select(index);
+					$(".details").show(100);
+					if(index == 0) {
+						$(".song_title").fadeOut(function() {
+						  $(this).text("Alpine").fadeIn();
+						});
+						$(".description").fadeOut(function() {
+							$(this).text("New age rock cello. Composed and performed by Simon Cummings.").fadeIn();
+						});
+					} else if(index == 1) {
+						$(".song_title").fadeOut(function() {
+						  $(this).text("Evergreen").fadeIn();
+						});
+						$(".description").fadeOut(function() {
+							$(this).text("New age rock cello. Composed and performed by Simon Cummings.").fadeIn();
+						});
+					} else if(index == 2) {
+						$(".song_title").fadeOut(function() {
+						  $(this).text("1952 Vincent").fadeIn();
+						});
+						$(".description").fadeOut(function() {
+							$(this).text("Indie acoustic. Composed by Richard Thompson.").fadeIn();
+						});
+					} else if(index == 3) {	
+						$(".song_title").fadeOut(function() {
+						  $(this).text("Parchman Farm").fadeIn();
+						});
+						$(".description").fadeOut(function() {
+							$(this).text("Blues guitar. Composed by Bukka White.").fadeIn();
+						});
+					} else if(index == 4) {	
+						$(".song_title").fadeOut(function() {
+						  $(this).text("Spumoni Bomba").fadeIn();
+						});
+						$(".description").fadeOut(function() {
+							$(this).text("Jazz Funk. Composed and performed by The Clock Reads.").fadeIn();
+						});
+					}
 					$(this.cssSelector.jPlayer).jPlayer("play");
 				}
 			} else if(index === undefined) {
